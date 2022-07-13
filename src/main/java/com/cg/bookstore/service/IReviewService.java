@@ -16,5 +16,9 @@ public interface IReviewService {
 	public List<Review> listAllReviewsByBook(Book book);
 	public List<Review> listAllReviewsByCustomer(Customer c);
 	public List<Book> listMostFavoredBooks();
+<<<<<<< HEAD
 	public List<Review> listAllReviewByCustomer(customer customer);
+=======
+	public List<Review> listAllReviewByCustomer(Customer customer);
+>>>>>>> 9317396 ( book management project started)
 }
